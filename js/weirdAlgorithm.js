@@ -1,8 +1,34 @@
 // Weird Algorithm
 
 
-// 1. check that n is betw 1 and 100 inclusive
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDR6qL7AlrZqi+IEwWwb3T0LMssatfmTM5DFBMmJ55VD7fj+CMQN7S3bEqOucY1/M/rmENcgIoq8uEFQGyWyxuHFa50mbXGdriD0KBs7dZNReC93PR6pE5q5nvTaNU8vPQXneECO+pTsBW099REy/0cTjj+ChMKS3hKbpRkSE0Ol+oynnTtkeqLpbHQomTyGlTG0y8r6FAF880VuQKJs+ewgikwcj86RJdBX+mORtKZuNdO4jRfzcop2ZV3xVR9MzytqbibjuMbpjUZ84duepmtIVuJpxBYVnn/pErikbGfvOOOpn4YklPvV+MBBbbuOLOm1Wdmqb+XuWqeMgIV2PzLA5yO7gZO66yBirgipaSvNt94UZrqQRC8hZV7bKWOEWTPnvkNsuO/aUuIimnF82TgreiD1rDq0oMcJ0b7bW8sC89uXbKPnl5o1f36tqtB5hInmEcz/ru4fWJ2duMno17+9r29eyi27kN8VuoqW2gUP56S9wdBwI2Ko9ymh6eKLO8= aliyubababello@gmail.com
+// CSES
+// CSES Problem Set
+// Weird Algorithm
+// TASK STATISTICS
+// Time limit: 1.00 s Memory limit: 512 MB
+// Consider an algorithm that takes as input a positive integer n. If n is even, the algorithm divides it by two, and if n is odd, the algorithm multiplies it by three and adds one. The algorithm repeats this, until n is one. For example, the sequence for n=3 is as follows:
+// 3→10→5→16→8→4→2→1
+
+// Your task is to simulate the execution of the algorithm for a given value of n.
+
+// Input
+
+// The only input line contains an integer n.
+
+// Output
+
+// Print a line that contains all values of n during the algorithm.
+
+// Constraints
+// 1≤n≤106
+// Example
+
+// Input:
+// 3
+
+// Output:
+// 3 10 5 16 8 4 2 1
+
 
 function weirdAlgorithm(nn) {
 	// body...
